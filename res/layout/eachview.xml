@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+         />
+
+    <TextView
+        android:id="@+id/mn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView3"
+        android:text="Movie name"
+        android:textColor="#FFFFCC11"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/dates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/mn"
+        android:text="Date of Release"
+        android:textSize="20dp"
+        android:textColor="#FFFFCC11" />
+
+    <TextView
+        android:id="@+id/gn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/dates"
+        android:text="Genre"
+        android:textColor="#FFAACCDD"
+        android:textSize="20dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/gn"
+        
+        android:text="Currently Showing"
+        android:textSize="15dp" />
+
+</RelativeLayout>
