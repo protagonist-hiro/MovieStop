@@ -5,10 +5,10 @@ import java.util.ArrayList;
 import android.content.ContentResolver;
 import android.content.res.Configuration;
 import android.database.Cursor;
-<<<<<<< HEAD
+
 import android.database.sqlite.SQLiteDatabase;
-=======
->>>>>>> b713627caef39d80af03effec2efd3d8ce0d8ca3
+
+
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.app.FragmentManager;
@@ -55,7 +55,7 @@ public class next_screen extends ActionBarActivity implements
 
             MoviesDB a=new MoviesDB(this) ;
             SQLiteDatabase db= a.getWritableDatabase();
-            db.execSQL("delete from "+ MoviesDB.TABLE_NAME);;
+            db.execSQL("delete from "+ MoviesDB.TABLE_NAME);
 
 			Downloader downloader = new Downloader(this);
 			downloader.execute(uri);
