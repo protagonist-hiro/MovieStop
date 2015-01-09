@@ -27,6 +27,10 @@ public class MSProvider extends ContentProvider {
 	@Override
 	public Uri insert(Uri uri, ContentValues contentValues) {
 		SQLiteDatabase db = helper.getWritableDatabase();
+<<<<<<< HEAD
+
+=======
+>>>>>>> b713627caef39d80af03effec2efd3d8ce0d8ca3
 		db.insert(MoviesDB.TABLE_NAME, null, contentValues);
 		return null;
 	}

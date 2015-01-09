@@ -50,7 +50,11 @@ public class TimeCheck extends PreferenceActivity {
 	}
 
 	public static void updatePreference(Context ctx) {
+<<<<<<< HEAD
+        setTime(ctx );
+=======
 
+>>>>>>> b713627caef39d80af03effec2efd3d8ce0d8ca3
 		editor.putInt("DAY", day);
 		editor.putInt("MONTH", month);
 		editor.putInt("YEAR", year);

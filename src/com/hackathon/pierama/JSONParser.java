@@ -50,7 +50,11 @@ public class JSONParser {
 	public ArrayList<Theatre> parseTheatres(String data) throws JSONException {
 		JSONArray array = new JSONArray(data);
 		theatresArray = new ArrayList<Theatre>();
+<<<<<<< HEAD
+
+=======
 		Log.d("I was alive upto ", "inside parseTheatres");
+>>>>>>> b713627caef39d80af03effec2efd3d8ce0d8ca3
 
 		for (int i = 0; i < array.length(); i++) {
 			Theatre tmp = new Theatre();

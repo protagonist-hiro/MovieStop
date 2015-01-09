@@ -59,6 +59,10 @@ public class Downloader extends AsyncTask<String, Void, ArrayList<Movies>> {
 			try {
 				String data = "";
 				HttpClient client = new DefaultHttpClient();
+<<<<<<< HEAD
+
+=======
+>>>>>>> b713627caef39d80af03effec2efd3d8ce0d8ca3
 				HttpGet request = new HttpGet(params[i]);
 				HttpResponse response = client.execute(request);
 				BufferedReader reader = new BufferedReader(

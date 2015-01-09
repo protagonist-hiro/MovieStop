@@ -94,7 +94,11 @@ public class viewadapter extends BaseAdapter {
 
 		cursor.moveToNext();
 		ImageDownloader downloader = new ImageDownloader(imageview);
+<<<<<<< HEAD
+		downloader.execute("http://moviestopp.tk" + cursor.getString(1));
+=======
 		downloader.execute("http://192.168.21.44" + cursor.getString(1));
+>>>>>>> b713627caef39d80af03effec2efd3d8ce0d8ca3
 		movienaam.setText(list.get(i).moviename);
 		genrenaam.setText(list.get(i).genre);
 		releasedatum.setText(list.get(i).releasedate);
